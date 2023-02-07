@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  background-color:white;
+
+
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: 900;
+
+  font-family: 'Michroma', sans-serif;
+  margin-bottom: 80px;
+}
+.coin-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+  margin-bottom: 200px;
+}
+.coin-search{
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-text{
+  margin-bottom: 32px;
+  text-align: center;
+}
+.coin-input{
+  padding-left: 16px;
+  width: 40vw;
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+  color: black;
+  border: 2px solid black;
+  outline: none;
+}
+.coin-input::placeholder{
+  color: black;
+}
